@@ -2,12 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 
-import '../provider/container.dart';
+import '../provider/game.dart';
 import '../pages/game.dart';
 
 class StartApp extends HookWidget {
   final List<TextEditingController> controllers = [
-    TextEditingController(),
     TextEditingController(),
     TextEditingController(),
     TextEditingController(),
