@@ -58,14 +58,6 @@ class StartApp extends HookWidget {
             decoration: const InputDecoration(
               hintText: '参加者の名前',
             ),
-            validator: (value) {
-              if (value.isEmpty) {
-                return '参加者は必須入力項目です';
-              }
-              if (4 < value.length) {
-                return '名前は最大4文字までです';
-              }
-            },
           ),
         ),
       );
