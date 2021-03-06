@@ -36,7 +36,7 @@ class GameApp extends HookWidget {
     Widget button;
     int count = provider.state;
 
-    if (count / 2 >= provider.controllers.length - 1) {
+    if (count / 2 >= provider.controllers.length ) {
       button = Container();
       return button;
     } else {
@@ -55,7 +55,7 @@ class GameApp extends HookWidget {
     String text = "";
     int count = provider.state;
 
-    if (count / 2 >= provider.controllers.length - 1) {
+    if (count / 2 >= provider.controllers.length ) {
       text = "ゲームスタート！";
       return text;
     } else if (count % 2 == 0) {
