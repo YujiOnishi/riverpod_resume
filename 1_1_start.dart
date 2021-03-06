@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 
-import '../provider/start.dart';
+import '../provider/game.dart';
 import '../pages/game.dart';
 
 class StartApp extends HookWidget {
